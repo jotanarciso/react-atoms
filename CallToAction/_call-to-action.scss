@@ -1,0 +1,44 @@
+a.call-to-action {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.7rem 1.3rem 0.7rem 1.3rem;
+  height: 3.5rem;
+  border-radius: $border-radius-1;
+  background-color: $color-primary;
+  color: $color-white;
+  box-shadow: 4px 4px 25px rgba(255, 45, 57, 0.45);
+  cursor: pointer;
+
+  &.-large {
+    height: 4.2rem;
+  }
+
+  &.-long {
+    padding: 0.7rem 3.3rem 0.7rem 3.3rem;
+  }
+
+  &.-light {
+    color: $color-gray;
+    background-color: $color-white;
+    box-shadow: none;
+  }
+
+  &.-dark {
+    background-color: $color-gray;
+    box-shadow: none;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  i {
+    margin-right: 1rem;
+
+    &.-invert {
+      margin-right: 0;
+      margin-left: 1rem;
+      order: 1;
+    }
+  }
+}

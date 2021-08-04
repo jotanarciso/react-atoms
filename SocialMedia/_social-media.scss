@@ -1,0 +1,19 @@
+.social-media {
+  svg {
+    fill: $color-white;
+    height: 1.125rem;
+    margin: 0.625rem;
+  }
+
+  &.primary {
+    svg {
+      fill: $color-primary;
+    }
+  }
+
+  &.spacing {
+    svg {
+      margin: 1rem 4.625rem 0 0;
+    }
+  }
+}

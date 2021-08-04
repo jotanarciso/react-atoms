@@ -1,0 +1,35 @@
+.option-box {
+  position: relative;
+  width: 100%;
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+  padding: 0.938rem 0.938rem 0.938rem 1.8rem;
+  margin-right: 0.625rem;
+  border-radius: $border-radius-1;
+  background-color: $color-dark;
+  font-size: $font-size-8;
+
+  i {
+    color: $color-primary;
+    font-size: $font-size-6;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    display: block;
+  }
+
+  .obs {
+    position: absolute;
+    right: 0.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1rem;
+    width: 1rem;
+    padding: 0.625rem;
+    border-radius: 50%;
+    color: $color-white;
+    background-color: $color-gray;
+    cursor: pointer;
+  }
+}

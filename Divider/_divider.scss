@@ -1,0 +1,41 @@
+hr#divider {
+  border: none;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: 0;
+
+  &.visible {
+    height: 2px;
+    background-color: $color-gray;
+
+    &.thin {
+      height: 1px;
+    }
+
+    &.light {
+      background-color: $color-soft;
+    }
+  }
+  &.size-1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  &.size-2 {
+    margin-top: 2rem;
+    margin-bottom: 2em;
+  }
+  &.size-3 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  &.size-4 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  &.size-5 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+}

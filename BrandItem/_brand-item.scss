@@ -1,0 +1,50 @@
+li.brand-item {
+  text-align: center;
+  list-style: none;
+
+  &.dark {
+    color: $color-white;
+  }
+
+  &.align-left {
+    text-align: left;
+    h6 {
+      margin: 1.7rem 0;
+    }
+
+    i {
+      font-size: 1.2rem;
+    }
+  }
+
+  .footer {
+    margin-top: 1.8rem;
+    padding-top: 1.2rem;
+    border-top: 1px solid;
+    border-color: $color-soft;
+    font-weight: 500;
+
+    a {
+      color: $color-dark;
+    }
+  }
+
+  h6 {
+    margin: 2.5rem;
+  }
+
+  img {
+    padding: 3.75rem;
+    border: 1px solid $color-gray;
+    border-radius: 360px;
+  }
+
+  i {
+    font-size: 3.75rem;
+    color: $color-primary;
+  }
+  
+  p{
+    font-weight: 200;
+  }
+}

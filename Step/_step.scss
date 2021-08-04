@@ -1,0 +1,35 @@
+.step {
+  width: 100%;
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+  border-bottom: 5px solid;
+  border-color: $color-dark;
+  padding-bottom: 0.875rem;
+  cursor: pointer;
+
+  .index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.875rem;
+    width: 1.875rem;
+    border-radius: 50%;
+    border: 1px solid;
+    color: $color-medium;
+  }
+
+  &.active {
+    border-color: $color-primary;
+    .index {
+      background-color: $color-primary;
+      border: none;
+      color: $color-white;
+    }
+  }
+
+  .title {
+    display: block;
+    margin-top: 1rem;
+  }
+}
